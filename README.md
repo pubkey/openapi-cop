@@ -210,7 +210,7 @@ import {runProxy} from 'openapi-cop';
 
 const server = await runProxy({
   port: 8888,
-  host: 'proxyhost',
+  host: 'localhost',
   targetUrl: 'http://targethost:8989',
   apiDocFile: '/path/to/openapi-file.yaml',
   defaultForbidAdditionalProperties: false,
